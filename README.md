@@ -3,10 +3,10 @@
 Unofficial API for [ToText](http://www.to-text.net) in .NET
 
 # Website Description
-To-Text Converter is a solution, which allows you to convert images and PDFs containing written characters to text documents with no need for any software installation.<br />
+To-Text Converter is a solution, which allows you to convert images and PDFs containing written characters to text documents with no need for any software installation.<br /><br />
 **Supported file formats: .tif, .jpg, .bmp, .png, .pdf**
 
-## Examples
+# Usage
 
 ```csharp
 var totext = new ToText.ToText();
@@ -21,3 +21,5 @@ var text2 = totext.Convert(image, ToText.Languages.English);
 var text3 = totext.Convert(byteArray, ToText.Languages.English);
 
 ```
+# Dependencies
+* [HtmlAgilityPack](https://www.nuget.org/packages/HtmlAgilityPack/)
