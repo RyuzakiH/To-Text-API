@@ -1,5 +1,4 @@
 To-Text-API
-[![AppVeyor](https://img.shields.io/appveyor/ci/RyuzakiH/To-Text-API/master.svg?maxAge=60)](https://ci.appveyor.com/project/RyuzakiH/To-Text-API)
 [![NuGet](https://img.shields.io/nuget/v/TempMail.API.svg?maxAge=60)](https://www.nuget.org/packages/ToText.API)
 =============
 
