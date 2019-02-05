@@ -29,7 +29,7 @@ var text3 = client.Convert(byteArray, Languages.English);
 
 Synchronous Example
 
-```
+```csharp
 var client = new ToTextClient();
 
 var result = client.Convert(@"..\..\..\assets\sample0.png", Languages.English);
@@ -37,7 +37,7 @@ var result = client.Convert(@"..\..\..\assets\sample0.png", Languages.English);
 
 Asynchronous Example
 
-```
+```csharp
 var client = new ToTextClient();
 
 var result = await client.ConvertAsync(@"..\..\..\assets\sample1.png", Languages.English);
